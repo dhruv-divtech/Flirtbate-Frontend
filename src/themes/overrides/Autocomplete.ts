@@ -4,9 +4,9 @@ export default function Autocomplete(theme: any) {
     MuiAutocomplete: {
       styleOverrides: {
         paper: {
-          boxShadow: theme.customShadows.z20,
-        },
-      },
-    },
+          boxShadow: theme.customShadows.z20
+        }
+      }
+    }
   };
 }

@@ -4,12 +4,12 @@ export default function Typography(theme: any) {
     MuiTypography: {
       styleOverrides: {
         paragraph: {
-          marginBottom: theme.spacing(2),
+          marginBottom: theme.spacing(2)
         },
         gutterBottom: {
-          marginBottom: theme.spacing(1),
-        },
-      },
-    },
+          marginBottom: theme.spacing(1)
+        }
+      }
+    }
   };
 }

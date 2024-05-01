@@ -4,7 +4,7 @@ import { ThemeProvider } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import StyledEngineProvider from '@mui/material/StyledEngineProvider';
 import { NextAppDirEmotionCacheProvider } from './emotionCache';
-import theme from './theme/theme';
+import theme from './theme';
 
 type ThemeCustomizationProps = {
   children: ReactNode;

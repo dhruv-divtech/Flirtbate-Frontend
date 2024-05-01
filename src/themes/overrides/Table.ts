@@ -5,9 +5,9 @@ export default function Table(theme: any) {
       styleOverrides: {
         head: {
           color: theme.palette.text.secondary,
-          backgroundColor: theme.palette.background.neutral,
-        },
-      },
-    },
+          backgroundColor: theme.palette.background.neutral
+        }
+      }
+    }
   };
 }

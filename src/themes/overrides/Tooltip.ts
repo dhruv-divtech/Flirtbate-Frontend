@@ -4,12 +4,12 @@ export default function Tooltip(theme: any) {
     MuiTooltip: {
       styleOverrides: {
         tooltip: {
-          backgroundColor: theme.palette.grey[800],
+          backgroundColor: theme.palette.grey[800]
         },
         arrow: {
-          color: theme.palette.grey[800],
-        },
-      },
-    },
+          color: theme.palette.grey[800]
+        }
+      }
+    }
   };
 }
