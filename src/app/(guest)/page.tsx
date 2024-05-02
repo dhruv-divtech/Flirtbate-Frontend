@@ -1,7 +1,7 @@
 import HomeContainer from 'views/home';
 
-const GuestPage = () => {
+const Home = () => {
   return <HomeContainer />;
 };
 
-export default GuestPage;
+export default Home;
