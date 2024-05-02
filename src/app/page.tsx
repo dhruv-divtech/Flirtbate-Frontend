@@ -1,5 +1,7 @@
-import HomeContainer from 'components/HomePage/HomeContainer';
+import GuestPage from './(guest)';
 
-export default function Home() {
-  return <HomeContainer />;
-}
+const Home = () => {
+  return <GuestPage />;
+};
+
+export default Home;
