@@ -1,18 +1,10 @@
 'use client';
 
 import { useEffect } from 'react';
-
-// NEXT
 import { useRouter } from 'next/navigation';
-
-// PROJECT IMPORTS
 import Loader from 'components/Loader';
-
-// TYPES
 import { GuardProps } from 'types/auth';
 import { useSession } from 'next-auth/react';
-
-// ==============================|| GUEST GUARD ||============================== //
 
 const GuestGuard = ({ children }: GuardProps) => {
   const { data: session, status } = useSession();
