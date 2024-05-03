@@ -5,10 +5,11 @@ import Image from 'next/image';
 import { FooterSubICon } from './MainFooter.styled';
 import { FooterCityList } from './footer.constants';
 import Typography from '@mui/material/Typography';
-import { useGetMediaQueryDown } from 'hooks/useGetMediaQuery';
+import useMediaQuery from '@mui/material/useMediaQuery';
+import theme from 'themes/theme';
 
 const MainFooter = () => {
-  const isSmDown = useGetMediaQueryDown('sm');
+  const isSmDown = useMediaQuery(theme.breakpoints.down('sm'));
 
   return (
     <>

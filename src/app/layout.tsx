@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 import './globals.css';
 import ProviderWrapper from './ProviderWrapper';
-import Footer from 'views/guestLayout/footer';
 
 export const metadata: Metadata = {
   title: 'flirtBate - SassyEscort',
@@ -16,12 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <ProviderWrapper>
-          <>
-            {children}
-            <Footer />
-          </>
-        </ProviderWrapper>
+        <ProviderWrapper>{children}</ProviderWrapper>
       </body>
     </html>
   );
